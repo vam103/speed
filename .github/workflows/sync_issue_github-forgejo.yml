@@ -13,8 +13,8 @@ jobs:
         run: |
           URL=https://codeberg.org/vam103
           REPO=speed
-          GIT_USERNAME=${{ secrets.codeberg_username }}
-          GIT_PASSWORD=${{ secrets.codeberg_password }}
+          GIT_USERNAME=${{ secrets.CODEBERG_USER_NAME }}
+          GIT_PASSWORD=${{ secrets.CODEBERG_PASSWORD }}
 
           sync=0
 
